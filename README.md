@@ -14,7 +14,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 LINKS
 
-- GITHUB PAGES: https://lauraadan.github.io/Final-Project-Adan-Laura/#/
+- GITHUB PAGES: https://lauraadan.github.io/Todo-App-Vue3
 
 - GITHUB: https://github.com/lauraadan/Final-Project-Adan-Laura.git
 
