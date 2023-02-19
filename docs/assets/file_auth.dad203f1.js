@@ -1,0 +1,1 @@
+import{i}from"./file_index.2f5480c0.js";const u=i("user",{state:()=>({isAuth:!1,user:{id:"",email:"",pasword:""}}),actions:{login(s,t,e){this.isAuth=!this.isAuth,this.user.id=s,this.user.email=t,this.user.password=e},logout(){this.isAuth=!this.isAuth,this.user.email="",this.user.password=""}},persist:{enabled:!0,strategies:[{key:"user",storage:localStorage}]}});export{u};
