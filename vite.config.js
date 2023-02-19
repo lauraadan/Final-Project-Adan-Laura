@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [vue()],
-    base: process.env.NODE_ENV === 'production' ? '/Final-Project-Adan-Laura/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/Todo-App-Vue3/' : '/',
     build: {
         outDir: 'docs',
         rollupOptions: {
@@ -16,6 +16,6 @@ export default defineConfig({
         }
     },
     server: {
-        base: process.env.NODE_ENV === 'production' ? '/Final-Project-Adan-Laura/' : '/',
+        base: process.env.NODE_ENV === 'production' ? '/Todo-App-Vue3/' : '/',
     }
 })
